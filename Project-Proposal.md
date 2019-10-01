@@ -14,6 +14,8 @@ Our goal is to analyze musical data and identify how “hot” a song will be gi
 
 We have a dataset that consists of the top songs from 2016, 2017, and 2018. A sample of the features associated with a song is in the image below
 
+![Example of Top Song Data](screenshot4741.png)
+
 Our data was collected from the Spotify Web API and from the “spotipy” Python package.
 
 We plan on using various combinations of the features above in order to predict whether or not a song is popular.
