@@ -14,7 +14,7 @@ Our goal is to analyze musical data and identify how “hot” a song will be gi
 
 We have a dataset that consists of the top songs from 2016, 2017, and 2018. A sample of the features associated with a song is in the image below
 
-![Example of Top Song Data](screenshot4741.png)
+![Example of Top Song Data](images/screenshot4741.png)
 
 Our data was collected from the Spotify Web API and from the “spotipy” Python package.
 
@@ -22,4 +22,4 @@ We plan on using various combinations of the features above in order to predict 
 
 **Project Value**
 
-A lot of artists and record labels consider the “hotness” of their songs important, and by identifying characteristics of songs that have been chart-toppers, record labels will be able to see what traits make a song popular, and be able to choose songs to release and artists to work with to maximize “hotness” of their songs. 
+A lot of artists and record labels consider the “hotness” of their songs important, and by identifying characteristics of songs that have been chart-toppers, record labels will be able to see what traits make a song popular, and be able to choose songs to release and artists to work with to maximize “hotness” of their songs.
