@@ -30,7 +30,7 @@ Below are some of the features and description of the features used below. This 
 
 Below are histogram plots of certain features (Valence, Tempo, Danceability, Speechiness, Acousticness) as well as a histogram of the popularity of songs in our dataset.
 
-![](images/Popularity.png width="250")
+<img src="/images/Popularity" width="250" height="200" />
 ![](images/Danceability.png)
 ![](images/Tempo.png)
 ![](images/Valence.png)
