@@ -30,14 +30,9 @@ Below are some of the features and description of the features used below. This 
 
 Below are histogram plots of certain features (Valence, Tempo, Danceability, Speechiness, Acousticness) as well as a histogram of the popularity of songs in our dataset.
 
-<img src="images/Popularity.png" width="300" height="250" />
-<img src="images/Danceability.png" width="300" height="250" />
-<img src="images/Tempo.png" width="300" height="250" />
-<img src="images/Valence.png" width="300" height="250" />
-<img src="images/Acousticness.png" width="300" height="250" />
-<img src="images/Speechiness.png" width="300" height="250" />
-
-
+<img src="images/Popularity.png" width="300" height="250" /> <img src="images/Danceability.png" width="300" height="250" />
+<img src="images/Tempo.png" width="300" height="250" /> <img src="images/Valence.png" width="300" height="250" />
+<img src="images/Acousticness.png" width="300" height="250" /> <img src="images/Speechiness.png" width="300" height="250" />
 
 
 ### Feature Transformations
@@ -72,7 +67,6 @@ From these results, we can see so far that there is no significant model that pe
 ### What's Next?
 
 Currently, our model is not robust enough. We plan on executing the following plans:
-
 
 * Train an individual model on songs for each year, and evaluate the model on the songs from the following year. Ideally, this would capture only the most recent trends in music, and thus won’t be influenced by songs from previous generations
 * Add various features derived from features. We would potentially add some quantile-based features.
