@@ -6,6 +6,7 @@
 The music industry impacts our everyday lives. Even our very own president Martha Pollack has noticed this trend of students always listening to music. Being able to find the features that make a song popular would be the key for artists to produce hits. Our project seeks to determine the feasibility of predicting popularity of songs using various features of songs.
 
 ### Raw features
+We obtained our dataset using the Spotify Web API. We extensively used the Spotipy package from Spotify, and focused on the audio-features endpoint. We also selected a playlist of 10,000 songs that represent a collection of various music over the years. We first queried for the songs of the playlist, and then for each song ID, we called the audio-features endpoint, and stored out output in a Pandas Dataframe.
 
 Below are some of the features and description of the features used below. This is the raw data that we obtained from our data source, without any transformations.
 
@@ -52,7 +53,7 @@ To prevent underfitting, we also want to try to add some more complexity to our 
 
 ### Some Simple Regressions and Analysis
 
-| Regression Type |  Mean Average Error |
+| Regression Type |  Mean Absolute Error |
 |:---|:---|
 | Linear Regression | 20.106  |
 | Polynomial Regression (Degree 2) | 20.155  |
